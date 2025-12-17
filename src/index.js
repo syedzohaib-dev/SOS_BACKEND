@@ -53,6 +53,10 @@ const port = process.env.PORT || 4000;
 // Socket sirf local environment mein init karein
 // initSocket(server);
 
+app.get('/', (req, res) => {
+    res.send('SOS backend API v1 is running...')
+})
+
 server.listen(port, () => {
     console.log('App server started on port ' + port);
 });

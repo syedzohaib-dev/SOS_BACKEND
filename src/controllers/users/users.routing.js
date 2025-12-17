@@ -7,7 +7,7 @@ import { getSingleUser, getUsers } from './list.action.js';
 const router = express.Router();
 
 // Get all users (protected)
-router.get('/', auth, getUsers);
+router.get('/', getUsers);
 
 // Get single user by id
 router.get('/:id', getSingleUser);
