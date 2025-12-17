@@ -24,7 +24,7 @@ app.use(bodyParser.json({ limit: '100mb' }));
 lumie.load(app, {
     preURL: 'api',
     verbose: true,
-    ignore: ['.spec', '.action', '*.md'],
+    ignore: ['.spec', '*.md'],
     controllers_path: path.join(__dirname, 'controllers'),
 });
 
