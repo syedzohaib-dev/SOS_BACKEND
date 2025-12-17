@@ -1,0 +1,10 @@
+| Status Code                   | Meaning                 | Roman Urdu Explanation                               |
+| ----------------------------- | ----------------------- | ---------------------------------------------------- |
+| **200 OK**                    | Request successful      | Sab theek chala, data mil gaya.                      |
+| **201 Created**               | Resource created        | Naya user ya koi record successfully create ho gaya. |
+| **400 Bad Request**           | Invalid input           | Aap ne ghalat ya incomplete data bheja.              |
+| **401 Unauthorized**          | Login required          | Token ya login details missing/invalid hain.         |
+| **403 Forbidden**             | Not allowed             | Aap ko is action ki permission nahi.                 |
+| **404 Not Found**             | Not found               | Jo cheez mangi thi wo exist nahi karti.              |
+| **409 Conflict**              | Already exists conflict | Jaise email pehle se exist karta ho.                 |
+| **500 Internal Server Error** | Server error            | Unexpected issue, code me bug waghera.               |
