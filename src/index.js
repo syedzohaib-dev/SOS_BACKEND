@@ -32,7 +32,7 @@ lumie.load(app, {
 const connectDB = async () => {
     try {
         await dbConnect(process.env.MONGO_URI);
-        console.log('Database connected successfully');
+        console.log('Database connected successfully'); 
     } catch (error) {
         console.error('Database connection failed', error);
     }
