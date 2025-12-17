@@ -3,7 +3,7 @@ import { auth, role } from '../../middlewares/auth.js';
 import create from './create.action.js';
 import list from './list.action.js';
 import update from './update.action.js';
-import remove from './update.action.js';
+import remove from './remove.action.js';
 
 module.exports = {
     '/': {
